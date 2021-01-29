@@ -1,6 +1,7 @@
 import graphene
 from rooms import schema as rooms_schema
 from users import schema as users_schema
+from .middlewares import JWTMiddleware
 
 
 class Query(rooms_schema.Query, users_schema.Query, graphene.ObjectType):

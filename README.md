@@ -13,7 +13,8 @@ GraphQL API of the Airbnb Clone using Graphene GraphQL
 #### Users
 
 - [x] See User
-- [ ] Login (JWT)
+- [x] Login (JWT)
 - [x] Create Account
+- [ ] See Favs
 - [ ] See My Profile
 - [ ] Edit Profile
